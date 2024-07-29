@@ -22,3 +22,19 @@ body{
     grid-template-columns: 50% 50%;
 }
     
+.container{
+    height: 100vh;
+}
+
+.container__botao{
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-princípal);
+    display: block;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
